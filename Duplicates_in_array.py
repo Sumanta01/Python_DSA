@@ -17,13 +17,13 @@ def duplicateElm(arr):
             see.add(i)
             
             
-    return visit
+    return see
 
 
 
 awr = [1,22,3,1,22,23,22,54,87,34,21,76,54]
 ans=duplicateElm(awr) 
-print(ans)
+print(list(ans))
     
   
 
